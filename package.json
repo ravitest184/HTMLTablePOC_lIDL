@@ -1,0 +1,22 @@
+{
+  "name": "htmltablepoc_lidl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravitest184/HTMLTablePOC_lIDL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravitest184/HTMLTablePOC_lIDL/issues"
+  },
+  "homepage": "https://github.com/ravitest184/HTMLTablePOC_lIDL#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  }
+}

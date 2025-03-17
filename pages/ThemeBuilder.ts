@@ -10,21 +10,13 @@ export class ThemeBuilderPage {
     // Define all locators in the constructor like JavaScript example
     this.allRows = page.locator('div[role="row"]');
   }
-
+  
   /**
    * Get total number of rows in the table (count of <div role="row">)
    * @returns Promise<number>
    */
-  async getNumberOfRows(): Promise<number> {
-    return await this.allRows.count();
-  }
-
-  /**
-   * Alias for getNumberOfRows() - get row count in table
-   * @returns Promise<number>
-   */
   async getRowCount(): Promise<number> {
-    return await this.getNumberOfRows(); // Simple alias
+    return await this.allRows.count();
   }
 }
 
